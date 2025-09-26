@@ -1,0 +1,12 @@
+streamlit==1.50.0
+langchain==0.3.27
+langchain-astradb==0.6.1
+langchain-community==0.3.29
+langchain-groq==0.3.8
+langchain-huggingface==0.3.1
+langchain-core==0.3.76
+pandas==2.3.2
+python-dotenv==1.1.1
+huggingface-hub==0.35.1
+groq==0.31.1
+astrapy==2.1.0
