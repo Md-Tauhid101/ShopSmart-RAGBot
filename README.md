@@ -18,7 +18,7 @@ ShopSmart RAGBot is an e-commerce chatbot built using Retrieval-Augmented Genera
 
 ## Live Deployment
 ```bash
-   https://shopsmart-ragbot.onrender.com
+   https://video-recommender-assignment.onrender.com/
 ```
 
 ## Setup Instructions
