@@ -16,6 +16,11 @@ ShopSmart RAGBot is an e-commerce chatbot built using Retrieval-Augmented Genera
 - Groq API key
 - Flipkart product review CSV file
 
+## Live Deployment
+```bash
+   https://shopsmart-ragbot.onrender.com
+```
+
 ## Setup Instructions
 1. Clone the repository:
    ```bash
