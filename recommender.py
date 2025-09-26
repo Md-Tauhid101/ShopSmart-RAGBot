@@ -40,7 +40,7 @@ vstore = AstraDBVectorStore(
 
 # Load and prepare data (example function to convert CSV to documents)
 def prepare_documents():
-    df = pd.read_csv("./project/flipkart_product_review.csv")
+    df = pd.read_csv("headphones_dataset.csv")
     data = df[["product_title", "review"]]
     product_list = []
     for index, row in data.iterrows():
