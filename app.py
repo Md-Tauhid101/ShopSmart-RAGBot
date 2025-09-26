@@ -3,7 +3,7 @@ from langchain_core.runnables.history import RunnableWithMessageHistory
 from langchain_community.chat_message_histories import ChatMessageHistory
 from langchain_core.chat_history import BaseChatMessageHistory
 from langchain_core.runnables import RunnableConfig
-from recommender import chain_with_memmory, store, get_session_history  # Import from the new file
+from recommender import chain_with_memory, store, get_session_history  # Import from the new file
 
 st.title("E-commerce Product Recommendation Chatbot")
 
@@ -29,7 +29,7 @@ if prompt := st.chat_input("Ask me about products..."):
     st.session_state.chat_history.add_user_message(prompt)
     
     config = RunnableConfig(configurable={"session_id": st.session_state.session_id})
-    response = chain_with_memmory.invoke({"input": prompt}, config=config)
+    response = chain_with_memory.invoke({"input": prompt}, config=config)
     
     with st.chat_message("assistant"):
         st.write(response["answer"])
